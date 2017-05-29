@@ -1,0 +1,45 @@
+/*css初始化*/
+body,p,div,h1,h2,h3,h4,ul,li,table,tr,td,dl,dt,dd,form,a,img,em,i,strong,b,label,input,select,option,textarea{ margin: 0; padding: 0;}
+li{list-style-type: none;}
+a{color: #247eed;text-decoration: none;}
+a:hover{ color: #FFA00A;}
+img{ border: 0 none; vertical-align: top;}
+body{ font-family: "宋体"; font-size: 12px; color:#000; background: url(../img/bg.png)  repeat-x left 6px #bde3f7;}
+.clearfix{*zoom:1;}
+.clearfix after{display: block; height: 0 font-size:0;content: ".";visibility: hidden;clear: both;}
+/*头部*/
+#header{width: 100%;height: auto;padding-top:34px;background: url(../img/header-bg.png) repeat-x center top;}
+.logo{width: 580px;height: 150px;margin: 0 auto;background: url(../img/logo.png) no-repeat;}
+.logo a{display: block;width:276px;height:74px;margin: 0 auto;text-indent: -99em;overflow: hidden;}
+.content{width: 917px;height: 532px;margin: 0 auto; background: url(../img/content-bg.png) no-repeat;}
+.content-nav{padding-top:36px;margin-left: 49px;}
+.content-nav a{float:left;height: 26px;font-family: "微软雅黑";font-size: 24px;line-height: 24px;color: #3f3f3f;}
+.content-nav .current,.content-nav a:hover{border-bottom: 3px #ffa00a solid;}
+.content-nav i{float: left;background: #838282;width: 1px;height: 16px;margin: 6px 21px 0 20px;}
+.content-main{padding-top:35px;}
+.left{float:left;width: 590px;}
+.label{width: 100%;height: 28px;padding: 16px 0 9px;}
+.label label{float:left;font-size: 14px;line-height: 28px;width: 136px; text-align: right;padding-right: 5px;}
+.label .red{ color:#ff0000; margin-right: 3px;}
+.label input{float:left;width: 193px;padding-left:5px ;font-size:14px ;height: 26px;border: 1px #cac8c8 solid;}
+.label-email-name{background: url(../img/email-icon.png) no-repeat 2px 58px;}
+.label-email{margin-left:141px ;height: 15px;}
+.label-YZM{height:46px;padding: 6px 0 30px;}
+.label-YZM label{margin-top:10px ;}
+.label-YZM input{margin-top:10px; width:68px;}
+.label-YZM img{float: left;margin-left:19px ;}
+.label-YZM a{float: left;width:20px; height:22px;background: url(../img/r-btn.png)no-repeat;margin: 13px 0 0 9px;text-indent: -99em;overflow: hidden;}
+.label-submit{width: 192px; height: 38px;border: 1px #ffe3b6 solid;background:#ffe3b6;padding: 1px;margin-left: 141px;border-radius: 1px;}
+.label-submit input{display: block;width:192px; height:38px;background: #ffa00a;border:0 none; font-size:18px; color:#fff;}
+.left-reg{margin: 10px 0 0 141px ;line-height: 18px;}
+.right{height:auto;float: left;width: 250px;height: 380px;padding-left: 31px;background: url(../img/right-line.png)no-repeat;}
+.right-login{height: 27px;line-height: 18px;width: auto;font-size: 14px;border-bottom: dotted 1px #cccccc;}
+.right-tel dt{margin: 8px 0 8px;line-height: 18px;font-size: 14px;}
+.right-tel dd{line-height: 22px;font-size: 14px;color:#948c8c;}
+.right-tel strong{color: #ffa00a;}
+/*底部*/
+#footer{height: 40px;width: 900px;margin: 0 auto;}
+.footer-left{float: left;height:30px;padding-left:31px ;line-height: 28px;background: url(../img/footer-icon.png) no-repeat 0 6px;color: #8a95a3;}
+.footer-right{float: left;line-height:30px; color:#8a95a3;margin-left: 200px;}
+.selecter{margin: 3px 0 0 16px;}
+.footer-right span{ font-family:"Arial";}
